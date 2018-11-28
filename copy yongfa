@@ -3,3 +3,4 @@ FROM
 	'D:\jz_20181103.csv' WITH CSV
 
 ## copy table_name from 'file_directory' with csv(only with csv)
+## postgres使用copy的一点心得 文件目录是相对服务器端，即服务器本地目录
