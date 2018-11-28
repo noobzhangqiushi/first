@@ -1,0 +1,5 @@
+COPY query_lte_basic_detail_day 
+FROM
+	'D:\jz_20181103.csv' WITH CSV
+
+## copy table_name from 'file_directory' with csv(only with csv)
